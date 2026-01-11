@@ -34,7 +34,7 @@ Command-line argument parsing
 String manipulation
 Modular programming
 
-📂** Project Structure**
+📂**Project Structure**
 
 MP3-Krishna/
 ├── main.c
