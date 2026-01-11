@@ -20,7 +20,7 @@ Pure C implementation
 
 Modular and readable codebase
 
-🛠️ Tech Stack
+🛠️ **Tech Stack**
 
 Language: C
 
@@ -29,12 +29,13 @@ Concepts:
 Binary File I/O
 Command-line argument parsing
 
-Structures & Enums
+**Structures & Enums**
 
 String manipulation
 Modular programming
 
-📂 Project Structure
+📂** Project Structure**
+
 MP3-Krishna/
 ├── main.c
 ├── read.c
@@ -44,16 +45,17 @@ MP3-Krishna/
 ├── types.h
 └── sample.mp3
 
-▶️ Build & Run
-Compile
+▶️ **Build & Run**
+
+**Compile**
 gcc *.c -o mp3_tag_editor
 
-View Metadata
+**View Metadata**
 ./mp3_tag_editor -v sample.mp3
 
-Edit Metadata
+**Edit Metadata**
 ./mp3_tag_editor -e -t "New Title" sample.mp3
 ./mp3_tag_editor -e -a "Artist Name" sample.mp3
 
-Help
+**Help**
 ./mp3_tag_editor -h
